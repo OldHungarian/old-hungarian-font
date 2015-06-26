@@ -16,7 +16,8 @@ more common ligatures. The list of supported glyphs can be found in [GLYPHS.md](
 Licence
 =======
 
-The font is licenced as CC-BY-SA 3.0, and it is based on the following sources:
+The font is licenced as CC-BY-SA 3.0, and it is based on the following CC-BY-SA 3.0 licenced sources made by the
+Rovas Foundation:
 
 - https://upload.wikimedia.org/wikipedia/commons/c/c7/Szekely_Hungarian_Rovas_alphabet_Szekely_magyar_rovas_ABC.svg
 - https://upload.wikimedia.org/wikipedia/commons/e/ee/1-1000_Rov%C3%A1ssz%C3%A1mok.svg
