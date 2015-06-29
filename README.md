@@ -7,6 +7,14 @@ This is a FontForge compatible support font package supporting the
 To build, simply open up the font file in FontForge and export it into your faviourite font type. Binaries
 are also available from [oldhungarian.eu](oldhungarian.eu)
 
+Note that when generating .ttf files in FontForge, for compatiblity reason please enable only the following options:
+
+* TrueType Hints
+* PS Glyph names
+* OpenType
+
+Do not use Apple as output as it doesn't support the ligatures properly 
+
 Supported glyphs
 ================
 
