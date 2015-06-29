@@ -3,8 +3,8 @@ FontName: OldHungarian
 FullName: Old Hungarian
 FamilyName: OldHungarian
 Weight: Regular
-Copyright: Licenced under the CC-BY-SA 3.0\n\nUsed glyphs based on\n\n- https://upload.wikimedia.org/wikipedia/commons/c/c7/Szekely_Hungarian_Rovas_alphabet_Szekely_magyar_rovas_ABC.svg\n- https://upload.wikimedia.org/wikipedia/commons/e/ee/1-1000_Rov%C3%A1ssz%C3%A1mok.svg
-UComments: "Created with FontForge (http://fontforge.org)+AAoACgAA-Used glyphs based on+AAoACgAA-- https://upload.wikimedia.org/wikipedia/commons/c/c7/Szekely_Hungarian_Rovas_alphabet_Szekely_magyar_rovas_ABC.svg+AAoA-- https://upload.wikimedia.org/wikipedia/commons/e/ee/1-1000_Rov%C3%A1ssz%C3%A1mok.svg"
+Copyright: Licenced under the CC-BY-SA 3.0\n\nUsed glyphs based on\n\n- https://upload.wikimedia.org/wikipedia/commons/c/c7/Szekely_Hungarian_Rovas_alphabet_Szekely_magyar_rovas_ABC.svg\n- https://upload.wikimedia.org/wikipedia/commons/e/ee/1-1000_Rov%C3%A1ssz%C3%A1mok.svg\n\nReverse comma, and reverse double 9 quote is based on the Symbola font, which is under public domain
+UComments: "Created with FontForge (http://fontforge.org)+AAoACgAA-Used glyphs based on+AAoACgAA-- https://upload.wikimedia.org/wikipedia/commons/c/c7/Szekely_Hungarian_Rovas_alphabet_Szekely_magyar_rovas_ABC.svg+AAoA-- https://upload.wikimedia.org/wikipedia/commons/e/ee/1-1000_Rov%C3%A1ssz%C3%A1mok.svg+AAoACgAA-Reverse comma, and reverse double 9 quote is based on the Symbola font, which is under public domain"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -102
@@ -22,8 +22,8 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1435264743
-ModificationTime: 1435280572
-PfmFamily: 17
+ModificationTime: 1435593064
+PfmFamily: 33
 TTFWeight: 400
 TTFWidth: 5
 LineGap: 94
@@ -53,11 +53,11 @@ DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
 WidthSeparation: 154
-WinInfo: 0 8 2
+WinInfo: 96 8 4
 BeginPrivate: 0
 EndPrivate
 TeXData: 1 0 0 346030 173015 115343 0 1048576 115343 783286 444596 497025 792723 393216 433062 380633 303038 157286 324010 404750 52429 2506097 1059062 262144
-BeginChars: 122 133
+BeginChars: 124 135
 
 StartChar: u10C8F
 Encoding: 15 68751 0
@@ -5368,6 +5368,75 @@ SplineSet
 EndSplineSet
 LCarets2: 2 0 0
 Ligature2: "OLD_HUNGARIAN_LIGATURES" u10CFE u200D u10CFB
+EndChar
+
+StartChar: uni2E41
+Encoding: 122 11841 133
+Width: 361
+VWidth: 2048
+Flags: HW
+HStem: 0 204<129.797 260.158>
+VStem: 66 42<-127.828 36.7893>
+LayerCount: 2
+Fore
+SplineSet
+297 103 m 256
+ 297 73.6669921875 287.5 49.1669921875 268.5 29.5 c 0
+ 249.5 9.8330078125 225 0 195 0 c 256
+ 165 0 139 10.3330078125 117 31 c 0
+ 116.333007812 33 114.666992188 35 112 37 c 1
+ 109.333007812 31.6669921875 108 24 108 14 c 0
+ 108 -116.666992188 153.333007812 -227.666992188 244 -319 c 0
+ 259.333007812 -333.666992188 267 -344.333007812 267 -351 c 0
+ 267 -365 260.666992188 -372 248 -372 c 0
+ 240.666992188 -372 227.333007812 -362.333007812 208 -343 c 0
+ 113.333007812 -249.666992188 66 -134.666992188 66 2 c 0
+ 66 53.3330078125 75 97 93 133 c 0
+ 115.666992188 180.333007812 149.666992188 204 195 204 c 0
+ 224.333007812 204 248.666992188 194.5 268 175.5 c 0
+ 287.333007812 156.5 297 132.333007812 297 103 c 256
+EndSplineSet
+EndChar
+
+StartChar: uni2E42
+Encoding: 123 11842 134
+Width: 735
+VWidth: 2048
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+670 103 m 256
+ 670 73.6669921875 660.666992188 49.1669921875 642 29.5 c 128
+ 623.333007812 9.8330078125 599 0 569 0 c 0
+ 539.666992188 0 514 10.3330078125 492 31 c 0
+ 490.666992188 33 488.666992188 35 486 37 c 1
+ 483.333007812 31.6669921875 482 24 482 14 c 0
+ 482 -118 526.666992188 -229 616 -319 c 0
+ 632 -334.333007812 640 -345 640 -351 c 0
+ 640 -365 633.333007812 -372 620 -372 c 0
+ 613.333007812 -372 600.666992188 -362.333007812 582 -343 c 0
+ 486.666992188 -247 439 -132 439 2 c 0
+ 439 52.6669921875 448 96.6669921875 466 134 c 0
+ 489.333007812 180.666992188 523.666992188 204 569 204 c 0
+ 598.333007812 204 622.5 194.5 641.5 175.5 c 128
+ 660.5 156.5 670 132.333007812 670 103 c 256
+297 103 m 256
+ 297 73.6669921875 287.333007812 49.1669921875 268 29.5 c 128
+ 248.666992188 9.8330078125 224.333007812 0 195 0 c 0
+ 167 0 141.333007812 10.3330078125 118 31 c 0
+ 116.666992188 33 114.333007812 35 111 37 c 1
+ 108.333007812 31.6669921875 107 24 107 14 c 0
+ 107 -116.666992188 152.333007812 -227.666992188 243 -319 c 0
+ 257.666992188 -333.666992188 265 -344.333007812 265 -351 c 0
+ 265 -365 259 -372 247 -372 c 0
+ 239.666992188 -372 226.333007812 -362.333007812 207 -343 c 0
+ 112.333007812 -248.333007812 65 -133.333007812 65 2 c 0
+ 65 52.6669921875 74 96.6669921875 92 134 c 0
+ 114.666992188 180.666992188 149 204 195 204 c 0
+ 224.333007812 204 248.666992188 194.5 268 175.5 c 128
+ 287.333007812 156.5 297 132.333007812 297 103 c 256
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

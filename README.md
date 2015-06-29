@@ -21,6 +21,8 @@ Supported glyphs
 The font supports all basic characters from the Old Hungarian block (U+10C80 - U+10CFF), and also some of the
 more common ligatures. The list of supported glyphs can be found in [GLYPHS.md](GLYPHS.md)
 
+It also includes the two punctuation used in Old Hungarian: U+2E41 and U+2E42
+
 Licence
 =======
 

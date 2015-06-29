@@ -128,7 +128,12 @@ The font also supports the number five hundred as a ligature of the 5 and 100 nu
 
 - `U+10CFB + U+200D + U+10CFE` OLD HUNGARIAN NUMBER FIVE HUNDRED LIGATURE (5+100): 𐳻‍𐳾
 
-The font also defines `U+200D` for ligatures to work. It does not define any other
-characters, including basic punctuation ones. This also means that the two OLD HUNGARIAN
-punctuation marks added in Unicode 7.0 `U+2E41` REVERSED COMMA and `U+2E42`
-DOUBLE LOW-REVERSED-9 QUOTATION MARK are not included.
+All ligatures can be written both left to right or right to left, they are both defined, and the same in the font
+
+The font also defines `U+200D` for ligatures to work.
+
+It also defines the following puonctuation marks, as they are used in Old Hungarian but commonly
+not found in fonts:
+
+- `U+2E41` REVERSED COMMA: ⹁
+- `U-2E42` DOUBLE LOW-REVERSED-9 QUOTATION MARK: ⹂
