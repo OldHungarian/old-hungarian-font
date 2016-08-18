@@ -130,11 +130,13 @@ The font also supports the number five hundred as a ligature of the 5 and 100 nu
 
 All ligatures can be written both left to right or right to left, they are both defined, and the same in the font
 
-The font also defines `U+200D` for ligatures to work, and `U+0020` and `U+00A0` to fix issues with some
-applications that don't support fallbacks for common characters.
+The font also defines `U+200D` for ligatures to work.
 
 It also defines the following puonctuation marks, as they are used in Old Hungarian but commonly
 not found in fonts:
 
 - `U+2E41` REVERSED COMMA: ⹁
 - `U-2E42` DOUBLE LOW-REVERSED-9 QUOTATION MARK: ⹂
+
+The full version of the font also contains some glyphs from the Lato package for applications that doesn't support fallbacks
+for punctuation and whitespace characters. The slim version of the font doesn't contain these additional characters.

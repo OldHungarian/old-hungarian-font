@@ -13,7 +13,16 @@ Note that when generating .ttf files in FontForge, for compatiblity reason pleas
 * PS Glyph names
 * OpenType
 
-Do not use Apple as output as it doesn't support the ligatures properly 
+Do not use Apple as output as it doesn't support the ligatures properly.
+
+Also note that the release contains two types of fonts, one has only the Old Hungarian glyphs, the other one also contains
+supporting punctuation glyphs from the Lato font package. Use the full font package in case your applications doesn't properly
+support fallbacks for punctuations, and use the slim version for other applications and the web.
+
+Note: to generate the slim version of the font, simply delete all of the glyphs in the `U-0000`-`U-2E2E` range (except `U-200D`)
+before generating the TTF.
+
+The release ZIP was generated using https://www.web-font-generator.com/
 
 Supported glyphs
 ================
