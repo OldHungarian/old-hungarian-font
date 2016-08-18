@@ -5,7 +5,7 @@ This is a FontForge compatible support font package supporting the
 [Old Hungarian unicode block](http://www.unicode.org/charts/PDF/U10C80.pdf) added in Unicode version 8.0.
 
 To build, simply open up the font file in FontForge and export it into your faviourite font type. Binaries
-are also available from [oldhungarian.eu](oldhungarian.eu)
+are also available from [oldhungarian.eu](http://oldhungarian.eu)
 
 Note that when generating .ttf files in FontForge, for compatiblity reason please enable only the following options:
 
